@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Delirium;
+  src: url(/resources/DeliriumNeonNcv-J1AK.ttf);
+}
+
 * {
   background: pink;
+  font: 80px Delirium;
+  color: #fff;
 }
