@@ -58,6 +58,20 @@ body {
   justify-content: center;
 }
 
+#content div {
+  padding: 20px 50px;
+}
+
+.paragraph {
+  font-weight: bold;
+  font-size: 18px;
+  width: 68%;
+}
+
+.paragraph p {
+  margin-bottom: 20px;
+}
+
 .form {
   background: #CEDEE4;
   box-shadow: 0 2px 4px rgba(0,0,0,0.4);
