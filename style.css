@@ -3,8 +3,62 @@
   src: url(/resources/DeliriumNeonNcv-J1AK.ttf);
 }
 
+/* https://coolors.co/cedee4-bfd3dd-afc8d6-a0bcd0-90b1c9-81a6c2-719bbb-628fb5-5284ae-4379a7 */
+
 * {
-  background: pink;
-  font: 80px Delirium;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: default;
+}
+
+#sign-up {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar {
+  width: 40%;
+  height: 100vh;
+  background: center/cover url(/resources/spacex--p-KCm6xB9I-unsplash.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   color: #fff;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 70%;
+  padding: 25px 0 15px;
+  background: rgba(0,0,0,0.3);
+  font: 85px Delirium;
+  letter-spacing: 4px;
+}
+
+.credit {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.credit a {
+  color: #fff;
+}
+
+#content {
+  background: #A0BCD0;
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  background: #CEDEE4;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
